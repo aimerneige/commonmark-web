@@ -91,15 +91,15 @@ var exercises = {
 		correctMd: "A loop in JavaScript:\n```\nvar i;\nfor (i=0; i<5; i++) {\n  console.log(i);\n}\n```\nWhat numbers will this print?"
 	},
 	"9-1": {
-		answer: "<ul>\n<li>Fruit\n<ul>\n<li>Apple</li>\n<li>Orange</li>\n<li>Banana</li>\n</ul>\n</li>\n<li>Dairy\n<ul>\n<li>Milk</li>\n<li>Cheese</li>\n</ul>\n</li>\n</ul>",
-		correctMd: "* Fruit\n  * Apple\n  * Orange\n  * Banana\n* Dairy\n  * Milk\n  * Cheese"
+		answer: "<ul>\n<li>水果\n<ul>\n<li>苹果</li>\n<li>橙子</li>\n<li>香蕉</li>\n</ul>\n</li>\n<li>奶制品\n<ul>\n<li>牛奶</li>\n<li>奶酪</li>\n</ul>\n</li>\n</ul>",
+		correctMd: "* 水果\n  * 苹果\n  * 橙子\n  * 香蕉\n* 奶制品\n  * 牛奶\n  * 奶酪"
 	}, 
 	"9-2": {
-		answer: "<ul>\n<li>World Cup 2014\n<ol>\n<li>Germany</li>\n<li>Argentina</li>\n<li>Netherlands</li>\n</ol>\n</li>\n<li>Rugby World Cup 2015\n<ol>\n<li>New Zealand</li>\n<li>Australia</li>\n<li>South Africa</li>\n</ol>\n</li>\n</ul>",
-		correctMd: "+ World Cup 2014\n  1. Germany\n  2. Argentina\n  3. Netherlands\n+ Rugby World Cup 2015\n  1. New Zealand\n  2. Australia\n  3. South Africa"
+		answer: "<ul>\n<li>2014 年世界杯\n<ol>\n<li>德国</li>\n<li>阿根廷</li>\n<li>荷兰</li>\n</ol>\n</li>\n<li>2015 年橄榄球世界杯\n<ol>\n<li>新西兰</li>\n<li>澳大利亚</li>\n<li>南非</li>\n</ol>\n</li>\n</ul>",
+		correctMd: "+ 2014 年世界杯\n  1. 德国\n  2. 阿根廷\n  3. 荷兰\n+ 2015 年橄榄球世界杯\n  1. 新西兰\n  2. 澳大利亚\n  3. 南非"
 	},
 	"9-3": {
-		answer: "<ol>\n<li>\n<p>Ingredients</p>\n<ul>\n<li>spaghetti</li>\n<li>marinara sauce</li>\n<li>salt</li>\n</ul>\n</li>\n<li>\n<p>Cooking</p>\n<p>Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is <strong>tender</strong>.</p>\n</li>\n<li>\n<p>Serve</p>\n<p>Drain the pasta on a plate. Add heated sauce.</p>\n<blockquote>\n<p>No man is lonely eating spaghetti; it requires so much attention.</p>\n</blockquote>\n<p>Bon appetit!</p>\n</li>\n</ol>",
-		correctMd: "1. Ingredients\n\n    - spaghetti\n    - marinara sauce\n    - salt\n\n2. Cooking\n\n   Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.\n\n3. Serve\n\n   Drain the pasta on a plate. Add heated sauce. \n\n   > No man is lonely eating spaghetti; it requires so much attention.\n\n   Bon appetit!"
+		answer: "<ol>\n<li>\n<p>配料</p>\n<ul>\n<li>意大利面</li>\n<li>意大利西红柿酱</li>\n<li>盐</li>\n</ul>\n</li>\n<li>\n<p>烹饪</p>\n<p>将水烧开，加入少许盐和意大利面。煮到意大利面变<strong>嫩</strong>。</p>\n</li>\n<li>\n<p>服务</p>\n<p>在盘子上晾干意大利面。加入加热后的意大利西红柿酱。</p>\n<blockquote>\n<p>尤其要注意的是，不要让客人独自吃意大利面。</p>\n</blockquote>\n<p>请享用！</p>\n</li>\n</ol>",
+		correctMd: "1. 配料\n\n    - 意大利面\n    - 意大利西红柿酱\n    - 盐\n\n2. 烹饪\n\n   将水烧开，加入少许盐和意大利面。煮到意大利面变**嫩**。\n\n3. 服务\n\n   在盘子上晾干意大利面。加入加热后的意大利西红柿酱。 \n\n   > 尤其要注意的是，不要让客人独自吃意大利面。\n\n   请享用！"
 	}
 };
