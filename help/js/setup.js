@@ -200,23 +200,23 @@ $(document).ready(function() {
     // vary the success alert text so it doesn't get boring
     function randomSuccessTitle() {
         var a = [
-            'Good Job!',
-            'Fantastic!',
-            'Well Done!',
-            'Excellent!',
-            'Perfect!',
-            'Super!', 
-            'Just Right!',
-            'You Did It!',
-            'Great Work!',
-            'Stellar!',
-            'Yes!',
-            'You Got It!',
-            'That’s Right!',
-            'That’s It!',
-            'Awesome!',
-            'Superb!',
-            'Outstanding!'
+            '做的不错！',
+            '太棒了！',
+            '做的很好!',
+            '不错！',
+            '完美！',
+            '太好了！', 
+            '完全正确！',
+            '你做到了！',
+            '做的很棒！',
+            '很好！',
+            '是的！',
+            '你做对了！',
+            '对了！',
+            '没有问题！',
+            '恭喜！',
+            '你太棒了！',
+            '杰出的成就！'
         ]
         return a[Math.floor(Math.random() * a.length)];
     }	
